@@ -1,0 +1,3 @@
+# Hard Machines
+
+This section contains writeups and PDF reports for retired Hack The Box machines classified as Hard.
