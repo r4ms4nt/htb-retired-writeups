@@ -6,3 +6,4 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 - [Cap PDF](./cap/)
 - [Titanic PDF](./titanic/)
 - [Jarvis PDF](./jarvis/)
+- [Lame PDF](./lame/)
