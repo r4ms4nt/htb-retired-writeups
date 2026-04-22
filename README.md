@@ -1,16 +1,20 @@
 # HTB Retired Writeups
 
-Public repository for retired Hack The Box machine writeups and PDF reports.
+Public repository for retired Hack The Box writeups and PDF reports.
+
+## Overview
+
+This repository contains technical documentation in PDF format for **retired Hack The Box machines**.
 
 ## Language
 
 - Repository structure and navigation: English
-- Technical documentation and PDFs: Spanish
-- Catalan and full multilingual structure: planned for a future phase
+- Technical documentation and PDF reports: Spanish
+- Catalan and multilingual structure: planned for a future phase
 
-## Scope
+## Publication policy
 
-This repository only includes documentation for **retired** Hack The Box machines.
+Only documentation for **retired** Hack The Box machines is published in this public repository.
 
 ## Sections
 
@@ -18,7 +22,25 @@ This repository only includes documentation for **retired** Hack The Box machine
 - [Medium](./machines/medium/)
 - [Hard](./machines/hard/)
 
+## Current published machines
+
+### Easy
+
+- [Active](./machines/easy/active/)
+- [Cap](./machines/easy/cap/)
+- [Titanic](./machines/easy/titanic/)
+- [Lame](./machines/easy/lame/)
+- [Jarvis](./machines/easy/jarvis/)
+
+## Format
+
+Each machine folder may include:
+
+- PDF report
+- machine README
+- supporting assets when needed
+
 ## Status
 
-Repository under construction.  
-First publications will be added progressively.
+Repository under active development.  
+New Hack The Box retired writeups will be added progressively.
