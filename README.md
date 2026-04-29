@@ -26,11 +26,17 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 
 ### Easy
 
+### Easy
+
 - [Active](./machines/easy/active/)
 - [Cap](./machines/easy/cap/)
-- [Titanic](./machines/easy/titanic/)
-- [Lame](./machines/easy/lame/)
+- [Editorial](./machines/easy/editorial/)
+- [Forest](./machines/easy/forest/)
 - [Jarvis](./machines/easy/jarvis/)
+- [Lame](./machines/easy/lame/)
+- [Sau](./machines/easy/sau/)
+- [Sauna](./machines/easy/sauna/)
+- [Titanic](./machines/easy/titanic/)
 
 ## Format
 
