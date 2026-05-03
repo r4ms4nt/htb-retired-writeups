@@ -37,6 +37,7 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 - [Lame](./machines/easy/lame/)
 - [Sau](./machines/easy/sau/)
 - [Sauna](./machines/easy/sauna/)
+- [Support](./support/)
 - [Titanic](./machines/easy/titanic/)
 
 ## Format
