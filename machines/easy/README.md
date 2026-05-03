@@ -11,4 +11,5 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 - [Lame PDF](./lame/)
 - [Sau](./sau/)
 - [Sauna](./sauna/)
+- [Support](./support/)
 - [Titanic PDF](./titanic/)
