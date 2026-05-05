@@ -26,8 +26,6 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 
 ### Easy
 
-### Easy
-
 - [Active](./machines/easy/active/)
 - [Cap](./machines/easy/cap/)
 - [CozyHosting](./machines/easy/cozyhosting/)
@@ -37,7 +35,7 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 - [Lame](./machines/easy/lame/)
 - [Sau](./machines/easy/sau/)
 - [Sauna](./machines/easy/sauna/)
-- [Support](./support/)
+- [Support](./machines/easy/support/)
 - [Titanic](./machines/easy/titanic/)
 
 ## Format

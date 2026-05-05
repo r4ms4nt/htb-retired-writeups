@@ -2,14 +2,14 @@
 
 This section contains writeups and PDF reports for retired Hack The Box machines classified as Easy.
 
-- [Active PDF](./active/)
-- [Cap PDF](./cap/)
+- [Active](./active/)
+- [Cap](./cap/)
 - [CozyHosting](./cozyhosting/)
 - [Editorial](./editorial/)
 - [Forest](./forest/)
-- [Jarvis PDF](./jarvis/)
-- [Lame PDF](./lame/)
+- [Jarvis](./jarvis/)
+- [Lame](./lame/)
 - [Sau](./sau/)
 - [Sauna](./sauna/)
 - [Support](./support/)
-- [Titanic PDF](./titanic/)
+- [Titanic](./titanic/)
