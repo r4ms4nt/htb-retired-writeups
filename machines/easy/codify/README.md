@@ -2,7 +2,18 @@
 
 Retired Hack The Box machine writeup and PDF report.
 
-## Status
+## Machine
 
-Documentation in preparation.
-PDF will be added soon.
+- Name: Codify
+- Platform: Hack The Box
+- Status: Retired
+- Difficulty: Easy
+
+## Files
+
+- PDF report available in this folder.
+
+## Notes
+
+Technical documentation in Spanish.
+Catalan and multilingual structure will be added in a future phase.
