@@ -30,6 +30,7 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 
 - [Active](./machines/easy/active/)
 - [Cap](./machines/easy/cap/)
+- [Codify](./machines/easy/codify/)
 - [CozyHosting](./machines/easy/cozyhosting/)
 - [Editorial](./machines/easy/editorial/)
 - [Forest](./machines/easy/forest/)
