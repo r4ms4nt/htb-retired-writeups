@@ -4,6 +4,7 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 
 - [Active PDF](./active/)
 - [Cap PDF](./cap/)
+- [Codify](./codify/)
 - [CozyHosting](./cozyhosting/)
 - [Editorial](./editorial/)
 - [Forest](./forest/)
