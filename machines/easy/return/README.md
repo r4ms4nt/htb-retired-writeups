@@ -2,7 +2,6 @@
 
 Retired Hack The Box machine writeup and PDF report.
 
-## Status
+## Report
 
-Documentation in preparation.
-PDF will be added soon.
+- [PDF report](./HTB_Return_Informe_Tecnico.pdf)
