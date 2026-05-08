@@ -36,6 +36,7 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 - [Forest](./machines/easy/forest/)
 - [Jarvis](./machines/easy/jarvis/)
 - [Lame](./machines/easy/lame/)
+- [Return](./machines/easy/return/)
 - [Sau](./machines/easy/sau/)
 - [Sauna](./machines/easy/sauna/)
 - [Support](./support/)
