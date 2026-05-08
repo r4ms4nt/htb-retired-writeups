@@ -26,8 +26,6 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 
 ### Easy
 
-### Easy
-
 - [Active](./machines/easy/active/)
 - [Cap](./machines/easy/cap/)
 - [Codify](./machines/easy/codify/)
