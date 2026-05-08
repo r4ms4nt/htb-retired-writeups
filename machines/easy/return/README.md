@@ -1,11 +1,19 @@
 # Return
 
-Writeup y reporte técnico de la máquina retirada **Return** de Hack The Box.
+Retired Hack The Box machine writeup and PDF report.
 
-## Reporte
+## Machine
 
-- [Informe técnico en PDF](./HTB_Return_Informe_Tecnico.pdf)
+- Name: Return
+- Platform: Hack The Box
+- Status: Retired
+- Difficulty: Easy
 
-## Estado
+## Files
 
-Documentación publicada.
+- PDF report available in this folder.
+
+## Notes
+
+Technical documentation in Spanish.
+Catalan and multilingual structure will be added in a future phase.
