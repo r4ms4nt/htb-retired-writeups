@@ -10,7 +10,7 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 - [Forest](./forest/)
 - [Jarvis PDF](./jarvis/)
 - [Lame PDF](./lame/)
-- [Return](./return/)
+- [Return](./machines/easy/return/)
 - [Sau](./sau/)
 - [Sauna](./sauna/)
 - [Support](./support/)
