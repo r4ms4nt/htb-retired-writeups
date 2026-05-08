@@ -1,7 +1,11 @@
 # Return
 
-Retired Hack The Box machine writeup and PDF report.
+Writeup y reporte técnico de la máquina retirada **Return** de Hack The Box.
 
-## Report
+## Reporte
 
-- [PDF report](./HTB_Return_Informe_Tecnico.pdf)
+- [Informe técnico en PDF](./HTB_Return_Informe_Tecnico.pdf)
+
+## Estado
+
+Documentación publicada.
