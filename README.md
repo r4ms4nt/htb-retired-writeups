@@ -4,13 +4,14 @@ Public repository for retired Hack The Box writeups and PDF reports.
 
 ## Overview
 
-This repository contains technical documentation in PDF format for **retired Hack The Box machines**.
+This repository contains technical documentation for **retired Hack The Box machines**.
 
 ## Language
 
 - Repository structure and navigation: English
-- Technical documentation and PDF reports: Spanish
-- Catalan and multilingual structure: planned for a future phase
+- Technical documentation: Spanish, with selected machines also available in English and Catalan
+- Markdown files under `sources/` are the editable source documents
+- PDF files under `reports/` are final generated artifacts
 
 ## Publication policy
 
@@ -34,7 +35,7 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 - [Forest](./machines/easy/forest/)
 - [Jarvis](./machines/easy/jarvis/)
 - [Lame](./machines/easy/lame/)
-- [Return](./machines/easy/return/)
+- [Return](./machines/easy/return/) — EN / ES / CA
 - [Sau](./machines/easy/sau/)
 - [Sauna](./machines/easy/sauna/)
 - [Support](./machines/easy/support/)
@@ -44,8 +45,10 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 
 Each machine folder may include:
 
-- PDF report
 - machine README
+- metadata file
+- Markdown sources
+- PDF reports
 - supporting assets when needed
 
 ## Status
