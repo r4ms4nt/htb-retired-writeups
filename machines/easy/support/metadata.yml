@@ -1,0 +1,25 @@
+name: Support
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Windows
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/support.es.md
+  en: sources/en/support.en.md
+  ca: sources/ca/support.ca.md
+
+reports:
+  es: reports/support.es.pdf
+  en: reports/support.en.pdf
+  ca: reports/support.ca.pdf
+
+covers:
+  es: assets/covers/support.es.cover.png
+  en: assets/covers/support.en.cover.png
+  ca: assets/covers/support.ca.cover.png
