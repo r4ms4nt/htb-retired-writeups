@@ -16,6 +16,6 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 | [Lame](./lame/) | ES | Retired |
 | [Return](./return/) | EN / ES / CA | Retired |
 | [Sau](./sau/) | ES | Retired |
-| [Sauna](./sauna/) | ES | Retired |
+| [Sauna](./sauna/) | EN / ES / CA | Retired |
 | [Support](./support/) | ES | Retired |
 | [Titanic](./titanic/) | ES | Retired |
