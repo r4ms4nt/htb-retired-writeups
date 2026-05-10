@@ -2,16 +2,20 @@
 
 This section contains writeups and PDF reports for retired Hack The Box machines classified as Easy.
 
-- [Active](./active/)
-- [Cap](./cap/)
-- [Codify](./codify/)
-- [CozyHosting](./cozyhosting/)
-- [Editorial](./editorial/)
-- [Forest](./forest/)
-- [Jarvis](./jarvis/)
-- [Lame](./lame/)
-- [Return](./return/)
-- [Sau](./sau/)
-- [Sauna](./sauna/)
-- [Support](./support/)
-- [Titanic](./titanic/)
+## Machines
+
+| Machine | Reports | Status |
+|---|---|---|
+| [Active](./active/) | ES | Retired |
+| [Cap](./cap/) | ES | Retired |
+| [Codify](./codify/) | ES | Retired |
+| [CozyHosting](./cozyhosting/) | ES | Retired |
+| [Editorial](./editorial/) | ES | Retired |
+| [Forest](./forest/) | ES | Retired |
+| [Jarvis](./jarvis/) | ES | Retired |
+| [Lame](./lame/) | ES | Retired |
+| [Return](./return/) | EN / ES / CA | Retired |
+| [Sau](./sau/) | ES | Retired |
+| [Sauna](./sauna/) | ES | Retired |
+| [Support](./support/) | ES | Retired |
+| [Titanic](./titanic/) | ES | Retired |
