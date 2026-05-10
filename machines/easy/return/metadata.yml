@@ -1,0 +1,25 @@
+name: Return
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Windows
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/return.es.md
+  en: sources/en/return.en.md
+  ca: sources/ca/return.ca.md
+
+reports:
+  es: reports/return.es.pdf
+  en: reports/return.en.pdf
+  ca: reports/return.ca.pdf
+
+covers:
+  es: assets/covers/return.es.cover.png
+  en: assets/covers/return.en.cover.png
+  ca: assets/covers/return.ca.cover.png
