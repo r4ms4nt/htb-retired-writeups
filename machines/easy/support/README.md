@@ -8,12 +8,26 @@ Retired Hack The Box machine writeup and PDF report.
 - Platform: Hack The Box
 - Status: Retired
 - Difficulty: Easy
+- OS: Windows
 
-## Files
+## Reports
 
-- PDF report available in this folder.
+- English: [support.en.pdf](./reports/support.en.pdf)
+- Spanish: [support.es.pdf](./reports/support.es.pdf)
+- Catalan: [support.ca.pdf](./reports/support.ca.pdf)
+
+## Sources
+
+- English Markdown: [support.en.md](./sources/en/support.en.md)
+- Spanish Markdown: [support.es.md](./sources/es/support.es.md)
+- Catalan Markdown: [support.ca.md](./sources/ca/support.ca.md)
+
+## Assets
+
+- Covers: [assets/covers/](./assets/covers/)
 
 ## Notes
 
-Technical documentation in Spanish.
-Catalan and multilingual structure will be added in a future phase.
+Technical documentation maintained from Markdown sources.
+
+Only retired-machine material is published.
