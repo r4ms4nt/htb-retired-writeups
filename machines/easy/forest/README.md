@@ -1,6 +1,6 @@
 # Forest
 
-Retired Hack The Box machine writeup, PDF report, and notes.
+Retired Hack The Box machine writeup and PDF report.
 
 ## Machine
 
@@ -8,13 +8,26 @@ Retired Hack The Box machine writeup, PDF report, and notes.
 - Platform: Hack The Box
 - Status: Retired
 - Difficulty: Easy
+- OS: Windows
 
-## Files
+## Reports
 
-- PDF report available in this folder.
-- Markdown notes available in this folder.
+- English: [forest.en.pdf](./reports/forest.en.pdf)
+- Spanish: [forest.es.pdf](./reports/forest.es.pdf)
+- Catalan: [forest.ca.pdf](./reports/forest.ca.pdf)
+
+## Sources
+
+- English Markdown: [forest.en.md](./sources/en/forest.en.md)
+- Spanish Markdown: [forest.es.md](./sources/es/forest.es.md)
+- Catalan Markdown: [forest.ca.md](./sources/ca/forest.ca.md)
+
+## Assets
+
+- Covers: [assets/covers/](./assets/covers/)
 
 ## Notes
 
-Technical documentation in Spanish.
-Catalan and multilingual structure will be added in a future phase.
+Technical documentation maintained from Markdown sources.
+
+Only retired-machine material is published.

