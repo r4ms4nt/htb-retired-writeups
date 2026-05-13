@@ -8,12 +8,26 @@ Retired Hack The Box machine writeup and PDF report.
 - Platform: Hack The Box
 - Status: Retired
 - Difficulty: Easy
+- OS: Linux
 
-## Files
+## Reports
 
-- PDF report available in this folder.
+- English: [jarvis.en.pdf](./reports/jarvis.en.pdf)
+- Spanish: [jarvis.es.pdf](./reports/jarvis.es.pdf)
+- Catalan: [jarvis.ca.pdf](./reports/jarvis.ca.pdf)
+
+## Sources
+
+- English Markdown: [jarvis.en.md](./sources/en/jarvis.en.md)
+- Spanish Markdown: [jarvis.es.md](./sources/es/jarvis.es.md)
+- Catalan Markdown: [jarvis.ca.md](./sources/ca/jarvis.ca.md)
+
+## Assets
+
+- Covers: [assets/covers/](./assets/covers/)
 
 ## Notes
 
-Technical documentation in Spanish.
-Catalan and multilingual structure will be added in a future phase.
+Technical documentation maintained from Markdown sources.
+
+Only retired-machine material is published.
