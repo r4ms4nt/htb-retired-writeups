@@ -28,18 +28,18 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 ### Easy
 
 - [Active](./machines/easy/active/) — EN / ES / CA
-- [Cap](./machines/easy/cap/)
-- [Codify](./machines/easy/codify/)
-- [CozyHosting](./machines/easy/cozyhosting/)
-- [Editorial](./machines/easy/editorial/)
-- [Forest](./machines/easy/forest/)
-- [Jarvis](./machines/easy/jarvis/)
-- [Lame](./machines/easy/lame/)
+- [Cap](./machines/easy/cap/) — EN / ES / CA
+- [Codify](./machines/easy/codify/) — EN / ES / CA
+- [CozyHosting](./machines/easy/cozyhosting/) — EN / ES / CA
+- [Editorial](./machines/easy/editorial/) — EN / ES / CA
+- [Forest](./machines/easy/forest/) — EN / ES / CA
+- [Jarvis](./machines/easy/jarvis/) — EN / ES / CA
+- [Lame](./machines/easy/lame/) — EN / ES / CA
 - [Return](./machines/easy/return/) — EN / ES / CA
-- [Sau](./machines/easy/sau/)
-- [Sauna](./machines/easy/sauna/)
+- [Sau](./machines/easy/sau/) — EN / ES / CA
+- [Sauna](./machines/easy/sauna/) — EN / ES / CA
 - [Support](./machines/easy/support/) — EN / ES / CA
-- [Titanic](./machines/easy/titanic/)
+- [Titanic](./machines/easy/titanic/) — EN / ES / CA
 
 ## Format
 
