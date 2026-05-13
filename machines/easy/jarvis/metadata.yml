@@ -1,0 +1,25 @@
+name: Jarvis
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/jarvis.es.md
+  en: sources/en/jarvis.en.md
+  ca: sources/ca/jarvis.ca.md
+
+reports:
+  es: reports/jarvis.es.pdf
+  en: reports/jarvis.en.pdf
+  ca: reports/jarvis.ca.pdf
+
+covers:
+  es: assets/covers/jarvis.es.cover.png
+  en: assets/covers/jarvis.en.cover.png
+  ca: assets/covers/jarvis.ca.cover.png
