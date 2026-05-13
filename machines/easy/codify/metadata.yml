@@ -1,0 +1,25 @@
+name: Codify
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/codify.es.md
+  en: sources/en/codify.en.md
+  ca: sources/ca/codify.ca.md
+
+reports:
+  es: reports/codify.es.pdf
+  en: reports/codify.en.pdf
+  ca: reports/codify.ca.pdf
+
+covers:
+  es: assets/covers/codify.es.cover.png
+  en: assets/covers/codify.en.cover.png
+  ca: assets/covers/codify.ca.cover.png
