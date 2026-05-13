@@ -1,0 +1,25 @@
+name: CozyHosting
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/cozyhosting.es.md
+  en: sources/en/cozyhosting.en.md
+  ca: sources/ca/cozyhosting.ca.md
+
+reports:
+  es: reports/cozyhosting.es.pdf
+  en: reports/cozyhosting.en.pdf
+  ca: reports/cozyhosting.ca.pdf
+
+covers:
+  es: assets/covers/cozyhosting.es.cover.png
+  en: assets/covers/cozyhosting.en.cover.png
+  ca: assets/covers/cozyhosting.ca.cover.png
