@@ -1,0 +1,25 @@
+name: Sau
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/sau.es.md
+  en: sources/en/sau.en.md
+  ca: sources/ca/sau.ca.md
+
+reports:
+  es: reports/sau.es.pdf
+  en: reports/sau.en.pdf
+  ca: reports/sau.ca.pdf
+
+covers:
+  es: assets/covers/sau.es.cover.png
+  en: assets/covers/sau.en.cover.png
+  ca: assets/covers/sau.ca.cover.png
