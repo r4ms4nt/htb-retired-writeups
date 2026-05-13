@@ -1,6 +1,6 @@
 # Editorial
 
-Retired Hack The Box machine writeup, PDF report, and notes.
+Retired Hack The Box machine writeup and PDF report.
 
 ## Machine
 
@@ -8,13 +8,26 @@ Retired Hack The Box machine writeup, PDF report, and notes.
 - Platform: Hack The Box
 - Status: Retired
 - Difficulty: Easy
+- OS: Linux
 
-## Files
+## Reports
 
-- PDF report available in this folder.
-- Markdown notes available in this folder.
+- English: [editorial.en.pdf](./reports/editorial.en.pdf)
+- Spanish: [editorial.es.pdf](./reports/editorial.es.pdf)
+- Catalan: [editorial.ca.pdf](./reports/editorial.ca.pdf)
+
+## Sources
+
+- English Markdown: [editorial.en.md](./sources/en/editorial.en.md)
+- Spanish Markdown: [editorial.es.md](./sources/es/editorial.es.md)
+- Catalan Markdown: [editorial.ca.md](./sources/ca/editorial.ca.md)
+
+## Assets
+
+- Covers: [assets/covers/](./assets/covers/)
 
 ## Notes
 
-Technical documentation in Spanish.
-Catalan and multilingual structure will be added in a future phase.
+Technical documentation maintained from Markdown sources.
+
+Only retired-machine material is published.
