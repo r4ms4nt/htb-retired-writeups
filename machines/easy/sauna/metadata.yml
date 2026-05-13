@@ -1,0 +1,25 @@
+name: Sauna
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Windows
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/sauna.es.md
+  en: sources/en/sauna.en.md
+  ca: sources/ca/sauna.ca.md
+
+reports:
+  es: reports/sauna.es.pdf
+  en: reports/sauna.en.pdf
+  ca: reports/sauna.ca.pdf
+
+covers:
+  es: assets/covers/sauna.es.cover.png
+  en: assets/covers/sauna.en.cover.png
+  ca: assets/covers/sauna.ca.cover.png
