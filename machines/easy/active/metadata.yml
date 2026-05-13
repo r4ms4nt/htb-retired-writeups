@@ -1,0 +1,25 @@
+name: Active
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Windows
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/active.es.md
+  en: sources/en/active.en.md
+  ca: sources/ca/active.ca.md
+
+reports:
+  es: reports/active.es.pdf
+  en: reports/active.en.pdf
+  ca: reports/active.ca.pdf
+
+covers:
+  es: assets/covers/active.es.cover.png
+  en: assets/covers/active.en.cover.png
+  ca: assets/covers/active.ca.cover.png
