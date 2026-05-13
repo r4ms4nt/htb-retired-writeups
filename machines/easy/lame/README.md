@@ -8,12 +8,26 @@ Retired Hack The Box machine writeup and PDF report.
 - Platform: Hack The Box
 - Status: Retired
 - Difficulty: Easy
+- OS: Linux
 
-## Files
+## Reports
 
-- PDF report available in this folder.
+- English: [lame.en.pdf](./reports/lame.en.pdf)
+- Spanish: [lame.es.pdf](./reports/lame.es.pdf)
+- Catalan: [lame.ca.pdf](./reports/lame.ca.pdf)
+
+## Sources
+
+- English Markdown: [lame.en.md](./sources/en/lame.en.md)
+- Spanish Markdown: [lame.es.md](./sources/es/lame.es.md)
+- Catalan Markdown: [lame.ca.md](./sources/ca/lame.ca.md)
+
+## Assets
+
+- Covers: [assets/covers/](./assets/covers/)
 
 ## Notes
 
-Technical documentation in Spanish.
-Catalan and multilingual structure will be added in a future phase.
+Technical documentation maintained from Markdown sources.
+
+Only retired-machine material is published.

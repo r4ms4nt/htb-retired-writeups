@@ -1,0 +1,25 @@
+name: Lame
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/lame.es.md
+  en: sources/en/lame.en.md
+  ca: sources/ca/lame.ca.md
+
+reports:
+  es: reports/lame.es.pdf
+  en: reports/lame.en.pdf
+  ca: reports/lame.ca.pdf
+
+covers:
+  es: assets/covers/lame.es.cover.png
+  en: assets/covers/lame.en.cover.png
+  ca: assets/covers/lame.ca.cover.png
