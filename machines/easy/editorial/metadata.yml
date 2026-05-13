@@ -1,0 +1,25 @@
+name: Editorial
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/editorial.es.md
+  en: sources/en/editorial.en.md
+  ca: sources/ca/editorial.ca.md
+
+reports:
+  es: reports/editorial.es.pdf
+  en: reports/editorial.en.pdf
+  ca: reports/editorial.ca.pdf
+
+covers:
+  es: assets/covers/editorial.es.cover.png
+  en: assets/covers/editorial.en.cover.png
+  ca: assets/covers/editorial.ca.cover.png
