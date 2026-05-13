@@ -1,0 +1,25 @@
+name: Titanic
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/titanic.es.md
+  en: sources/en/titanic.en.md
+  ca: sources/ca/titanic.ca.md
+
+reports:
+  es: reports/titanic.es.pdf
+  en: reports/titanic.en.pdf
+  ca: reports/titanic.ca.pdf
+
+covers:
+  es: assets/covers/titanic.es.cover.png
+  en: assets/covers/titanic.en.cover.png
+  ca: assets/covers/titanic.ca.cover.png
