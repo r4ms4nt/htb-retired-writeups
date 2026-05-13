@@ -1,0 +1,25 @@
+name: Cap
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Linux
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/cap.es.md
+  en: sources/en/cap.en.md
+  ca: sources/ca/cap.ca.md
+
+reports:
+  es: reports/cap.es.pdf
+  en: reports/cap.en.pdf
+  ca: reports/cap.ca.pdf
+
+covers:
+  es: assets/covers/cap.es.cover.png
+  en: assets/covers/cap.en.cover.png
+  ca: assets/covers/cap.ca.cover.png
