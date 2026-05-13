@@ -6,7 +6,7 @@ This section contains writeups and PDF reports for retired Hack The Box machines
 
 | Machine | Reports | Status |
 |---|---|---|
-| [Active](./active/) | ES | Retired |
+| [Active](./active/) | EN / ES / CA | Retired |
 | [Cap](./cap/) | ES | Retired |
 | [Codify](./codify/) | ES | Retired |
 | [CozyHosting](./cozyhosting/) | ES | Retired |
