@@ -1,0 +1,25 @@
+name: Forest
+platform: Hack The Box
+status: Retired
+difficulty: Easy
+os: Windows
+
+languages:
+  - es
+  - en
+  - ca
+
+sources:
+  es: sources/es/forest.es.md
+  en: sources/en/forest.en.md
+  ca: sources/ca/forest.ca.md
+
+reports:
+  es: reports/forest.es.pdf
+  en: reports/forest.en.pdf
+  ca: reports/forest.ca.pdf
+
+covers:
+  es: assets/covers/forest.es.cover.png
+  en: assets/covers/forest.en.cover.png
+  ca: assets/covers/forest.ca.cover.png
