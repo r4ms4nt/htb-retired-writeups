@@ -41,6 +41,10 @@ Only documentation for **retired** Hack The Box machines is published in this pu
 - [Support](./machines/easy/support/) — EN / ES / CA
 - [Titanic](./machines/easy/titanic/) — EN / ES / CA
 
+### Medium
+
+- [Surveillance](./machines/medium/surveillance/) — EN / ES / CA
+
 ## Format
 
 Each machine folder may include:
